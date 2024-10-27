@@ -1,0 +1,54 @@
+/* Navbar styling */
+nav {
+    background-color: rgb(236, 152, 152); /* Darker gray for contrast */
+    padding: 15px 0;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 20px; /* Larger font size for emphasis */
+    font-weight: 600; /* Slightly bold */
+    letter-spacing: 1px; /* Adds space between letters */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    text-transform: uppercase; /* Makes all letters uppercase */
+}
+
+/* Main container styling */
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust transparency level here */
+
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Image and result display styling */
+.image-preview, .result {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.image-preview img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
